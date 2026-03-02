@@ -15,5 +15,6 @@ namespace SwaggerWcf
         [WebInvoke(Method = "GET", BodyStyle = WebMessageBodyStyle.Bare, UriTemplate = "/{*content}")]
         //[WebGet(UriTemplate = "/", BodyStyle = WebMessageBodyStyle.Bare, ResponseFormat = WebMessageFormat.Json)]
         Stream StaticContent(string content);
+        
     }
 }
